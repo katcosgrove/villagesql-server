@@ -84,6 +84,6 @@ git push -f <your_remote_name> myfeature
 
 ## Code Review Process
 
-Next, your pull request will have one or more reviewers assigned to it. They may suggest changes or improvements; this is not a judgment on the value of your contribution, only an effort to help make the project the best it can be. 
+Next, your pull request will have one or more reviewers assigned to it. They may suggest changes or improvements; this is not a judgment on the value of your contribution, only an effort to help make the project the best it can be.
 
 Reviews may take some time. Your reviewers are working as quickly as they can, but may have many PRs to review. If your PR is small this process may be very quick, but if it is particularly large, please be patient and understand that reviewing more content takes more time.

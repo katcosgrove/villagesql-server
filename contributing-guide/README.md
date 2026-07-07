@@ -19,6 +19,7 @@ As a general rule, any change that breaks compatibility with upstream MySQL will
   - [Issue Tracking](#issue-tracking)
   - [Community](#community)
     - [Communication](#communication)
+  - [GitHub Workflow](github-workflow.md)
 
 ## Prerequisites
 
