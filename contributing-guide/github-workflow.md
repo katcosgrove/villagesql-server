@@ -13,8 +13,8 @@ This guide covers the preferred GitHub workflow for VillageSQL, including best p
 Open your terminal and run the following commands to pull down a copy of your VillageSQL Server fork and confirm it's set up correctly.
 
 ```sh
-git clone https://github.com/$user/villagesql-server.git
-# or: git clone git@github.com:$user/villagesql.git
+git clone https://github.com/your-username/villagesql-server.git
+# or: git clone git@github.com:your-username/villagesql.git
 
 cd villagesql-server
 git remote add upstream https://github.com/villagesql/villagesql-server.git
@@ -29,7 +29,7 @@ git remote -v
 
 ## 3. Create a Feature Branch
 
-First, ensire that your local main branch is up to date with upstream.
+First, ensure that your local main branch is up to date with upstream.
 
 ```sh
 cd villagesql-server
@@ -38,7 +38,7 @@ git checkout main
 git rebase upstream/main
 ```
 
-Create your new branch, ideally with a name relevant to the work you are doing.
+Create your new branch, ideally with a name relevant to the work you are doing. The following command creates a new branch called `myfeature`, and the `-b` flag switches you to that new branch.
 
 ```sh
 git checkout -b myfeature
@@ -55,16 +55,26 @@ git rebase upstream/main
 
 Using `fetch` and then `rebase` as above is preferable to using `git pull`. While both work to keep your brach in sync, running `git pull` creates a merge commit instead of preserving individual commits. This makes the commit history harder to read and less useful.
 
+## 5. Run the Linter
 
-## 5. Commit Your Changes
-
-Commit messages should be brief but useful. Try for 50 characters or less, with no period or full-stop at the end of the commit message.
+VillageSQL includes a linter in the scripts directory to assist with some minor style and convention compliance. Run it right before committing and pushing your changes.
 
 ```sh
-git commit -m <your commit message here>
+./scripts/villint.sh
 ```
 
-## 6. Push to GitHub
+If you do not have its dependencies installed, it will prompt you to do so in your terminal.
+
+
+## 6. Commit Your Changes
+
+Commit messages should be brief but useful. Try for 50 characters or less, with no period or full-stop at the end of the commit message. The `-m` flag allows you to include a commit message.
+
+```sh
+git commit -m "<your commit message here>"
+```
+
+## 7. Push to GitHub
 
 When your changes are ready for review, push your working branch to
 your fork on GitHub.
@@ -73,7 +83,7 @@ your fork on GitHub.
 git push -f <your_remote_name> myfeature
 ```
 
-## 7. Create a Pull Request
+## 8. Create a Pull Request
 
 1. Navigate to your fork at `https://github.com/<user>/villagesql-server`
 2. Click the **Compare & Pull Request** button next to your feature branch.

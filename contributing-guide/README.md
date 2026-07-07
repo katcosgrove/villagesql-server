@@ -23,7 +23,7 @@ As a general rule, any change that breaks compatibility with upstream MySQL will
 
 ## Prerequisites
 
-Before you contribute to VillageSQL, please ensure you have read the below prerequisites. Some are technical in nature, others establish community standards and guidelines. Everything is important for ensuring a smooth first contribution anda  healthy community.
+Before you contribute to VillageSQL, please ensure you have read the below prerequisites. Some are technical in nature, and others establish community standards and guidelines. Everything is important for ensuring a smooth first contribution and a healthy community.
 
 ### Create a GitHub Account
 
@@ -42,7 +42,7 @@ We have a [Code of Conduct](../CODE_OF_CONDUCT.md), which all contributors and m
 **Building new functionality** (custom functions, custom types, integrations, exporters, etc.):
 Build a VEF extension in your own repository. Clone or fork
 [vsql-extension-template](https://github.com/villagesql/vsql-extension-template) to get started.
-See [Extensions or Plugins and Components](https://villagesql.com/docs/mysql-8.4/0.0.3/extensions-or-plugins)
+See [Extensions or Plugins and Components](https://villagesql.com/docs/mysql-8.4/0.0.5/extensions-or-plugins#extensions-or-plugins-and-components)
 for guidance on when to use VEF versus MySQL's native plugin and component interfaces.
 
 **Improving VEF itself** (new hook types, SDK capabilities):
@@ -53,7 +53,7 @@ File an issue and follow the process below.
 
 For VEF improvements and bug fixes, please follow this process:
 
-1. File a Github [issue](../issues) for any improvement or feature request. Use the appropriate prefix for your issue type: `[Server]:` for server changes, `[Bug]:` for bugs, `[VEF Hook]:` for extension framework work, `[Extension]:` for ideas of extensions you would like to see built. Browse the [project board](https://github.com/orgs/villagesql/projects/1) to see what's already planned or in progress before filing.
+1. File a Github [issue](../issues) for any improvement or feature request. Use the appropriate prefix for your issue type: `[Server]:` for server changes, `[Bug]:` for bugs, `[VEF Hook]:` for extension framework work, `[Extension]:` for ideas of extensions you would like to see built. Browse the [project board](https://github.com/orgs/villagesql/projects/1/views/4) to see what's already planned or in progress before filing.
 2. All requests will be reviewed weekly by VillageSQL
 3. Once a Github [issue](../issues) and solution has been agreed to, submit a pull request including signing the CLA
 
