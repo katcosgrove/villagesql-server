@@ -2,7 +2,7 @@
 
 This guide covers the preferred GitHub workflow for VillageSQL, including best practices for keeping your environment in sync with the upstream project and maintaining good commit hygiene for easier contribution.
 
-## 1. Fork the project
+## 1. Fork the Project
 
 1. While logged into your GitHub account, go to https://github.com/villagesql/villagesql-server
 
