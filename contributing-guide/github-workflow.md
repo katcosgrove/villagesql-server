@@ -63,7 +63,7 @@ VillageSQL includes a linter in the scripts directory to assist with some minor 
 ./scripts/villint.sh
 ```
 
-If you do not have its dependencies installed, it will prompt you to do so in your terminal.
+If you do not have its dependencies installed, you will be prompted to do so in your terminal.
 
 
 ## 6. Commit Your Changes
