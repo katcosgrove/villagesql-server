@@ -68,7 +68,7 @@ If you do not have its dependencies installed, you will be prompted to do so in 
 
 ## 6. Commit Your Changes
 
-Commit messages should be brief but useful. Try for 50 characters or less, with no period or full-stop at the end of the commit message. The `-m` flag allows you to include a commit message.
+Commit messages should be brief but useful. Try for 41 characters or less, with no period or full-stop at the end of the commit message. The `-m` flag allows you to include a commit message.
 
 ```sh
 git commit -m "<your commit message here>"
