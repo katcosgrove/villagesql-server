@@ -1,0 +1,7 @@
+# This file establishes OWNERS for areas of the VillageSQL Server project. Approval is required from two people: the primary maintainer of that area, and any other project maintainer. Reviewers are assigned automatically in round robin fashion.
+
+# Global repository owners
+* @villagestevers @villagesql/villagesql-team
+
+# Documentation owners
+docs/ @villagesql-adam @villagesql/villagesql-team
