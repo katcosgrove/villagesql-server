@@ -18,5 +18,5 @@ kind:
 priority:
   - backlog
   - critical-urgent
-  - important-longerm
+  - important-longterm
   - important-soon
