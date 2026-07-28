@@ -1,0 +1,22 @@
+area:
+  - extention
+  - hook
+  - indexing
+  - release
+  - server
+  - vef
+
+kind:
+  - bug
+  - cleanup
+  - documentation
+  - epic
+  - feature
+  - regression
+  - test
+
+priority:
+  - backlog
+  - critical-urgent
+  - important-longerm
+  - important-soon
