@@ -37,10 +37,16 @@ Contributing to VillageSQL requires you to [sign up](http://github.com/signup) f
 
 We have a [Code of Conduct](../CODE_OF_CONDUCT.md), which all contributors and maintainers must abide by.
 
+### AI Use and Disclosure Policy
+
+You are welcome to use AI when drafting your PR. If you do, you must disclose that in the PR description. For example, including "This PR was written with the assistance of AI," is acceptable. All AI-generated code is still your responsibility to understand, and you must be prepared to answer questions about it.
+
+Your PR description itself, commit messages, and all replies to reviewers must be written by you, without the assistance of AI. We want to talk to you, not your LLM.
+
 ### Where Does My Contribution Belong?
 
 **Building new functionality** (custom functions, custom types, integrations, exporters, etc.):
-Build a VEF extension in your own repository. Clone or fork
+Build a VEF extension in your own repository. Fork
 [vsql-extension-template](https://github.com/villagesql/vsql-extension-template) to get started.
 See [Extensions or Plugins and Components](https://villagesql.com/docs/mysql-8.4/0.0.5/extensions-or-plugins#extensions-or-plugins-and-components)
 for guidance on when to use VEF versus MySQL's native plugin and component interfaces.
@@ -53,9 +59,10 @@ File an issue and follow the process below.
 
 For VEF improvements and bug fixes, please follow this process:
 
-1. File a Github [issue](../issues) for any improvement or feature request. Use the appropriate prefix for your issue type: `[Server]:` for server changes, `[Bug]:` for bugs, `[VEF Hook]:` for extension framework work, `[Extension]:` for ideas of extensions you would like to see built. Browse the [project board](https://github.com/orgs/villagesql/projects/1/views/4) to see what's already planned or in progress before filing.
-2. All requests will be reviewed weekly by VillageSQL
-3. Once a Github [issue](../issues) and solution has been agreed to, submit a pull request including signing the CLA
+1. First check if there's an existing Issue you can upvote.
+2. File a Github [issue](../issues) for any improvement or feature request. Browse the [project board](https://github.com/orgs/villagesql/projects/1/views/4) to see what's already planned or in progress before filing.
+3. All requests will be reviewed weekly by VillageSQL
+4. Once a Github [issue](../issues) and solution has been agreed to, submit a pull request including signing the CLA
 
 We look forward to hearing from you.
 
