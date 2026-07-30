@@ -89,7 +89,7 @@ git push -f <your_remote_name> myfeature
 2. Click the **Compare & Pull Request** button next to your feature branch.
 3. Ensure that the the base repository is `villagesql/villagesql-server` and the base is `main`. The head respository should be `<user>/villagesql-server` and the compare dropdown should be your feature branch.
 4. Add a thorough, clear description of the content of your commits to the PR description. Include changes made, such as features added, bugs fixed, or performance improvements. If your PR resolves a known issue, include `Closes #<issue number>`.
-5. If you have used generative AI in your workflow, disclose it in the PR description along with the name of the tool. For example, `AI=CLAUDE`.
+5. If you have used generative AI in your workflow, disclose it in the PR description along with the name of the tool. For example, "This PR used generative AI.""
 
 
 ## Code Review Process
