@@ -46,13 +46,16 @@ Your PR description itself, commit messages, and all replies to reviewers must b
 ### Where Does My Contribution Belong?
 
 **Building new functionality** (custom functions, custom types, integrations, exporters, etc.):
-Build a VEF extension in your own repository. Fork
+Build a VillageSQL Extension Framework (VEF) extension in your own repository. Fork
 [vsql-extension-template](https://github.com/villagesql/vsql-extension-template) to get started.
+
 See [Extensions or Plugins and Components](https://villagesql.com/docs/mysql-8.4/0.0.5/extensions-or-plugins#extensions-or-plugins-and-components)
 for guidance on when to use VEF versus MySQL's native plugin and component interfaces.
 
+We also provide an [extention builder skill](https://github.com/villagesql/villagesql-skills) to help you.
+
 **Improving VEF itself** (new hook types, SDK capabilities):
-First check if there's an existing Issue you can upvote. If not, [submit a new Issue](../../issues/new/choose). You can also submit a PR to this repo. Please reference the applicable issue in your PR.
+First check if there's an [existing Issue](../../issues) you can upvote. If not, [submit a new Issue](../../issues/new/choose). You can also submit a PR to this repo. Please reference the applicable issue in your PR.
 
 **Server bug fixes and MySQL compatibility**:
 File an issue and follow the process below.
@@ -60,9 +63,9 @@ File an issue and follow the process below.
 For VEF improvements and bug fixes, please follow this process:
 
 1. First check if there's an existing Issue you can upvote.
-2. File a Github [issue](../issues) for any improvement or feature request. Browse the [project board](https://github.com/orgs/villagesql/projects/1/views/4) to see what's already planned or in progress before filing.
+2. File a Github [issue](../../issues) for any improvement or feature request. Browse the [project board](https://github.com/orgs/villagesql/projects/1/views/4) to see what's already planned or in progress before filing.
 3. All requests will be reviewed weekly by VillageSQL
-4. Once a Github [issue](../issues) and solution has been agreed to, submit a pull request including signing the CLA
+4. Once a Github [issue](../../issues) and solution has been agreed to, submit a pull request including signing the CLA
 
 We look forward to hearing from you.
 
@@ -70,7 +73,7 @@ We look forward to hearing from you.
 
 We use GitHub Issues to track all planned, in-progress, and ultimately, shipped work. We treat GitHub Issues as the source of truth for VillageSQL Server. Issues map to discrete pieces of work — features, bugs, internal tasks, etc. As an open source project, we do this in order to be transparent in what we are currently working on and the scope of our vision for VillageSQL Server.
 
-We use a GitHub Project board as the presentation layer: [https://github.com/orgs/villagesql/projects/1](https://github.com/orgs/villagesql/projects/1). The board organizes issues by Milestone and Status. When an issue is first submitted it has no status — that's the signal for it to be triaged. After triage, an issue either gets assigned to a milestone and set to Planned, or it is placed on the backlog (with no milestone set). Issues in a milestone progress through Planned, In Progress, and Shipped. Issues that have been triaged but not yet assigned to a milestone carry Backlog status. Milestone and Status live on the Issue itself, so the board and the issue page always agree.
+We use a [GitHub Project board](https://github.com/orgs/villagesql/projects/1) as the presentation layer. The board organizes issues by Milestone and Status. When an issue is first submitted it has no status — that's the signal for it to be triaged. After triage, an issue either gets assigned to a milestone and set to Planned, or it is placed on the backlog (with no milestone set). Issues in a milestone progress through Planned, In Progress, and Shipped. Issues that have been triaged but not yet assigned to a milestone carry Backlog status. Milestone and Status live on the Issue itself, so the board and the issue page always agree.
 
 Status moves forward in two ways. PRs drive most transitions automatically — adding `Closes #NNN` to a PR description closes the issue and moves it to Shipped when the PR merges. For earlier stages, status is updated directly on the issue page: when work is committed to a milestone it moves to Planned, and to In Progress when someone picks it up. If a PR is related to an issue but doesn't fully resolve it, referencing the issue number without `Closes` connects the history and keeps the issue open.
 
