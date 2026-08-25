@@ -29,10 +29,6 @@ Before you contribute to VillageSQL, please ensure you have read the below prere
 
 Contributing to VillageSQL requires you to [sign up](http://github.com/signup) for a GitHub account.
 
-### Development Enviroment
-
-//TODO: add dev environment requirements
-
 ### Code of Conduct
 
 We have a [Code of Conduct](../CODE_OF_CONDUCT.md), which all contributors and maintainers must abide by.
