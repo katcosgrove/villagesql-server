@@ -37,7 +37,7 @@ We have a [Code of Conduct](../CODE_OF_CONDUCT.md), which all contributors and m
 
 You are welcome to use AI when drafting your PR. If you do, you must disclose that in the PR description. For example, including "This PR was written with the assistance of AI," is acceptable. All AI-generated code is still your responsibility to understand, and you must be prepared to answer questions about it.
 
-Your PR description itself, commit messages, Issue descriptions, and all replies to reviewers must be written by you, without the assistance of AI. We want to talk to you, not your LLM. We do not allow the use of AI code review assistants such as Copilot. 
+Your PR description itself, commit messages, Issue descriptions, and all replies to reviewers must be written by you, without the assistance of AI. We want to talk to you, not your LLM. We do not allow the use of AI code review assistants such as Copilot.
 
 ### Where Does My Contribution Belong?
 
